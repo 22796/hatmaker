@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css.css">
+    <title>Hatclicker - Team Fortress 2 fangame</title>
+
+  </head>
+  <body>
+
+<header>
+  <h2>This site does not support small screens and progress can't be saved!</h2>
+</header>
+
+<div id="game">
+  <img src="pictures/logo.png" id="logo">
+  <div id="button" onclick="addHat()"></div>
+  <div id="counterContainer">
+    <h1>Scrap  produced:</h1>
+      <div id="scrapCounter">0</div>
+      <h1>Hats  produced:</h1>
+      <div id="hatCounter">0</div>
+  </div>
+</div>
+
+<div id="shop">
+    <h1>Production shop</h1>
+
+<div id="shop_idler">
+<input class="shopButtons" type="button" value="Trader bots" onclick="buy_idler()">
+<span>[0.5 scrap/1 sec]</span><br>
+<p>Robotic businessmen, programmed to make a profit of the scrap market.</p>
+<div class="shopDescription1">
+  <p>Hat cost:</p>
+  <div id="idlerCostId">3</div>
+</div>
+    <div class="shopDescription2">
+  <p>Owned:</p>
+  <div id="idlerOwnedId">0</div>
+ </div>
+</div>
+
+<div id="shop_idler2">
+<input class="shopButtons" type="button" value="foundries" onclick="buy_idler2()">
+<span>[3 scrap/1 sec]</span><br>
+<p>Scavenge old battlefields for robotic parts and smelt them in automatic foundries for scrap.</p>
+<div class="shopDescription1">
+  <p>Hat cost:</p>
+  <div id="idler2CostId">16</div>
+</div>
+    <div class="shopDescription2">
+  <p>Owned:</p>
+  <div id="idler2OwnedId">0</div>
+ </div>
+</div>
+
+
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

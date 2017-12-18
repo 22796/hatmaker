@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "BEBAS";
+    src: url(bebas/BEBAS.ttf);
+}
+
+body{
+  word-spacing: 3pt;
+  font-family: 'BEBAS';
+  overflow-y:hidden;
+  overflow-x:hidden;
+  margin: 0;
+  background-color: #373836;
+}
+
+header{
+  padding: 6px;
+  border-bottom-style: solid;
+  width: 100%;
+height: 10%;
+position: relative;
+background-color: #79542B;
+}
+
+#logo{
+  width: 400px;
+}
+
+#game{
+  border-style: solid;
+  border-width: 3px;
+  margin: 0.5%;
+  position: absolute;
+  width: 75%;
+  height: 85%;
+  background-color:  #F3A957;
+  opacity: 0.9;
+}
+
+#counterContainer{
+  font-size: 30px;
+  text-align: center;
+  padding-left: 40%;
+}
+
+/*shop START                                                                    <-*/
+
+.shopButtons{
+  width: 50%;
+  word-spacing: 5pt;
+  font-family: "BEBAS";
+  font-size: 25px;
+  background-color:  #79542B;
+  border-color: black;
+  margin: 3px;
+}
+.shopButtons:active{
+  transform: rotate(-1deg);
+     transition: 0.1s;
+     opacity: 0.8;
+}
+
+#shop{
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  background-color:  #F3A957;
+  margin: 0.5%;
+  position: absolute;
+  width: 21%;
+  height: 85%;
+  margin-left: 77%;
+  opacity: 0.9;
+}
+
+.shopDescription1{
+  float: left;
+  margin-left: 20%;
+  border-bottom: solid;
+}
+
+.shopDescription2{
+  float: right;
+  margin-right: 20%;
+  border-bottom: solid;
+}
+
+#shop_idler{
+  border-style: solid;
+  border-right: none;
+  border-left: none;
+  width: 100%;
+  height: 26%;
+  background-color:  #F3A957;
+}
+
+/*shop END                                                                      <-*/
+
+#button{
+  background-image: url("pictures/metal.png");
+  width: 512px;
+  height: 515px;
+  position: absolute;
+  margin: 5%;
+}
+
+#button:active{
+  transform: rotate(1deg);
+     transition: 0.1s;
+     opacity: 0.8;
+}
